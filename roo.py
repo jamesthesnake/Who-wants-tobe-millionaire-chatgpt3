@@ -4,7 +4,6 @@ import json
 from PIL import Image
 import io
 import stability_sdk
-API_KEY="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"
 import os
 import warnings
 from PIL import Image
@@ -19,7 +18,6 @@ os.environ['STABILITY_HOST'] = 'grpc.stability.ai:443'
 
 # Click on the following link once you have created an account to be taken to your API Key.
 # https://beta.dreamstudio.ai/membership?tab=apiKeys
-os.environ['STABILITY_KEY'] = 'sk-PKxgympH4vzv6y2Dhqf8lgghFVMdiCKFdhXqw94TwE66JdQW'
 
 # Paste your API Key below.
 # Set up our connection to the API.
